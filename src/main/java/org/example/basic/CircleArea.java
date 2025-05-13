@@ -1,4 +1,4 @@
-package org.example;
+package org.example.basic;
 
 public class CircleArea {
     public static void main(String[] args) {
