@@ -15,6 +15,15 @@ public class checkCircular {
         double x = sc.nextDouble();
         double y = sc.nextDouble();
 
+        // (점과 원의 중심 사이의 거리)^2 = (x-cx)^2 + (y-cy)^2
+        // 이 값이 r^2 이하이면 점이 원 내부에 있음
+//        if ((x - cx) * (x - cx) + (y - cy) * (y - cy) <= r * r) {
+//            System.out.println("점 (" + x + ", " + y + ")는 원 안에 있다.");
+//        } else {
+//            System.out.println("점 (" + x + ", " + y + ")는 원 밖에 있다.");
+//        }
+
+        //제곱근으로 비교
         double distance = Math.sqrt((x - cx) * (x - cx) + (y - cy) * (y - cy));
 
         if (distance <= r) {
