@@ -1,4 +1,4 @@
-package org.example.collection;
+package org.example.collection_generic;
 
 public class Point {
     private int x, y;
